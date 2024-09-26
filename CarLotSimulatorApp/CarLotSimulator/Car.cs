@@ -3,12 +3,12 @@ using System.Collections.Generic;
 
 public class Car
 {
-    public int year;
-    public string make;
-    public string model;
-    public string engineNoise;
-    public string honkNoise;
-    public bool IsDriveable;
+    public int year{ get; set; }
+    public string make{ get; set; }
+    public string model{ get; set; }
+    public string engineNoise{ get; set; }
+    public string honkNoise{ get; set; }
+    public bool IsDriveable{ get; set; }
 
     public Car()
     {
